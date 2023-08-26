@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "MD CLip",
+  "version": "0.0.1",
+  "description": "Clips a page in Markdown that can then easily be pasted.",
+  "icons": {
+    "32": "icons/clip.svg"
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "icons/clip.svg",
+    "default_title": "MD Clip",
+    "default_popup": "popup.html"
+  }
+}

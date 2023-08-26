@@ -1,0 +1,26 @@
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
+  padding: 1rem;
+  min-width: 400px;
+}
+
+label {
+  display: block;
+  min-width: 100px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+form > div:not(.actions-bar) {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+div.actions-bar {
+  text-align: right;
+}
