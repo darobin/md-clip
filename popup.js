@@ -17,7 +17,7 @@ async function run () {
 
   titleInput.value = tab.title;
   urlInput.value = cleanUpURL(tab.url);
-  // XXX desc requires access to the content
+  descInput.value = await browser.tabs.executeScript(tab.id, { file: '/desc.js' });
 }
 
 function cleanUpURL (str) {
