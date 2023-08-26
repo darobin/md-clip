@@ -1,4 +1,8 @@
 
+// XXX TODO:
+//  - close on copy
+//  - install properly
+
 const but = document.querySelector('button');
 const titleInput = document.querySelector('#title');
 const urlInput = document.querySelector('#url');
@@ -9,6 +13,7 @@ but.onclick = async () => {
   if (descInput.value) md += `: ${descInput.value}`;
   md += `\n`;
   await navigator.clipboard.writeText(md);
+  document.blur();
 };
 
 async function run () {
