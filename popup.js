@@ -13,7 +13,7 @@ but.onclick = async () => {
   if (descInput.value) md += `: ${descInput.value}`;
   md += `\n`;
   await navigator.clipboard.writeText(md);
-  document.blur();
+  window.close();
 };
 
 async function run () {
