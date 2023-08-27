@@ -1,6 +1,5 @@
 
 // XXX TODO:
-//  - close on copy
 //  - install properly
 
 const but = document.querySelector('button');
