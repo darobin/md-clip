@@ -3,6 +3,11 @@
   "name": "MD CLip",
   "version": "0.0.1",
   "description": "Clips a page in Markdown that can then easily be pasted.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "md-clip@berjon.com"
+    }
+  },
   "icons": {
     "32": "icons/clip.svg"
   },
