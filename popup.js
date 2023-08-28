@@ -1,7 +1,4 @@
 
-// XXX TODO:
-//  - install properly
-
 const but = document.querySelector('button');
 const titleInput = document.querySelector('#title');
 const urlInput = document.querySelector('#url');

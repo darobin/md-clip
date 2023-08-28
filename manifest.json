@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "MD CLip",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Clips a page in Markdown that can then easily be pasted.",
   "browser_specific_settings": {
     "gecko": {
