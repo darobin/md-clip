@@ -5,7 +5,7 @@ const urlInput = document.querySelector('#url');
 const descInput = document.querySelector('#desc');
 
 but.onclick = async () => {
-  let md = `- **[${titleInput.value}](${urlInput.value})**`;
+  let md = `#read **[${titleInput.value}](${urlInput.value})**`;
   if (descInput.value) md += `: ${descInput.value}`;
   md += `\n`;
   await navigator.clipboard.writeText(md);
